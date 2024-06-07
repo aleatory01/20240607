@@ -5,6 +5,8 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                chmod 777 hello.sh
+                ./hello.sh
             }
         }
     }
