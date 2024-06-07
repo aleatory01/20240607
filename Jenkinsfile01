@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
                 sh 'chmod 777 hello.sh'
                 sh './hello.sh'
-                sh 'whoami'
+                # sh 'whoami'
             }
         }
     }
